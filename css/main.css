@@ -24,26 +24,16 @@ body {
     bottom: calc(50% - 14px);
     left: calc(50% - 14px);
 }
-    
-.hand-minute {
-    width: 14px;
-    height: 86px;
-    position: absolute;
-    bottom: calc(50% - 7px);
-    left: calc(50% - 7px);
-    transition: all 2000ms linear;
-    transform-origin: center bottom;
-}
 
-.hand-hour {
+.hand {
+    position:absolute;
     width: 14px;
-    height: 58px;
-    position: absolute;
-    bottom: calc(50% - 7px);
+    bottom: 150px;
+    left: 150px;
     left: calc(50% - 7px);
-    transition: all 1000ms linear;
+    transition: all 6000ms linear;
     transform-origin: center bottom;
-}
+
 
 .clock-face:target .hand-hour {
     transform: rotate(360deg);
