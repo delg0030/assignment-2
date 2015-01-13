@@ -9,12 +9,48 @@ html {
 body {
     background-color: black;
 }
+
+.main {
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    display:inline-block;
+    width: 6em;
+    line-height: 6em;
+    border-radius: 50%;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 1rem;
+    
+}
+
+.btn-forwards {
+    background-color: green;
+}
+
+.btn-backwards {
+    background-color: red;
+}
+
+.btn-forwards:hover {
+    background-color: white;
+    color: #FF0099;
+}
+
+.btn-backwards:hover {
+    background-color: white;
+    color: #FF0099;
+}
    
 .clock-face {
     background-image: url(../images/round.svg);
     width: 300px;
     height: 300px;
     position:relative;
+    margin: 0 auto;
 }
 
 .center {
@@ -43,5 +79,3 @@ body {
 .clock-face:target .hand-minute {
     transform: rotate(4320deg);
 }
-    
-
