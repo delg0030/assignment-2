@@ -33,7 +33,7 @@ body {
     left: calc(50% - 7px);
     transition: all 6000ms linear;
     transform-origin: center bottom;
-
+}
 
 .clock-face:target .hand-hour {
     transform: rotate(360deg);
